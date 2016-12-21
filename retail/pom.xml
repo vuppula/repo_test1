@@ -11,11 +11,12 @@
   <url>http://maven.apache.org</url>
   
   <scm>
-		<url>https://github.com/vuppula/repo_test1</url>
-		<connection>scm:git:git://github.com/vuppula/repo_test1.git</connection>
-		<developerConnection>scm:git:git@github.com/vuppula/repo_test1.git</developerConnection>
-	</scm>
-
+	<connection>scm:git:git://github.com/vuppula/repo_test1.git</connection>
+	<developerConnection>scm:git:git@github.com:vuppula/repo_test1.git</developerConnection>
+	<url>https://github.com/vuppula/repo_test1</url>
+	 <tag>retail-1.0</tag>
+  </scm>
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
