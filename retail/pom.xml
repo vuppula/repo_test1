@@ -38,12 +38,19 @@
    </plugin>
    </plugins>
    </build>
-  
-  <distributionManagement>
+   
+   <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>RAJESH-KUMAR-releases</name>
+        <url>http://localhost:8087/artifactory/BANKING</url>
+    </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>RAJESH-KUMAR-snapshots</name>
-        <url>http://localhost:8087/artifactory/ext-snapshot-local</url>
+        <url>http://localhost:8087/artifactory/BANKING</url>
     </snapshotRepository>
 </distributionManagement>
+  
+
 </project>
